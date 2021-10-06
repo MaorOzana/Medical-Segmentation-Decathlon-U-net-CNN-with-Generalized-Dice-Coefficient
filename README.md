@@ -1,7 +1,7 @@
 # Medical Segmentation Decathlon: U-net CNN with Generalized Dice Coefficient
 With recent advances in machine learning, semantic segmentation algorithms are becoming increasingly general-purpose and translatable to unseen tasks. Many key algorithmic advances in the field of medical imaging are commonly validated on a small number of tasks, limiting our understanding of the generalisability of the proposed contributions. A model which works out-of-the-box on many tasks, in the spirit of AutoML (Automated Machine Learning), would have a tremendous impact on healthcare. The field of medical imaging is also missing a fully open source and comprehensive benchmark for general-purpose algorithmic validation and testing covering a large span of challenges, such as: small data, unbalanced labels, large-ranging object scales, multi-class labels, and multimodal imaging, etc.
 
-To address these problems, in this project, as part of the MSD challenge, I propose a generic machine learning algorithm which I applied on two organs: liver and tumors, spleen. I propose an unsupervised generic multi-class model by implementing U-net CNN architecture with Generalized Dice Coefficient as loss function and also as a metric. 
+To address these problems, in this project, as part of the MSD challenge, I propose a generic machine learning algorithm which I applied on two organs: liver and tumors, spleen. I propose an unsupervised generic multi-class model by implementing *U-net CNN* architecture with Generalized Dice Coefficient as loss function and also as a metric. 
 
 The MSD dataset consists of dozens of medical examinations in 3D (per organ), I’ll transform the 3-dimensional data into 2-d cuts as an input of our U-net. 
 
