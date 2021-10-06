@@ -1,16 +1,12 @@
 # Medical Segmentation Decathlon: U-net CNN with Generalized Dice Coefficient
 
-<img align="center" src="https://user-images.githubusercontent.com/88136596/136197398-a584b511-a82e-4b7a-a80c-bfac32c19428.gif" alt="Made with Angular" title="Angular" hspace="20"/>
-<img align="center" src="https://user-images.githubusercontent.com/88136596/136197398-a584b511-a82e-4b7a-a80c-bfac32c19428.gif" alt="Made with Bootstrap" title="Bootstrap" hspace="20"/>
-
-
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88136596/136197398-a584b511-a82e-4b7a-a80c-bfac32c19428.gif" alt="my boat" />
   <img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif" hspace="20" alt="dfsa" title="dsfsf" />
 </p>
 
-<p align="center">
+<p align="center"></p>
 <table>
     <tr>
       <td>First Screen Page</td>
@@ -21,7 +17,7 @@
       <td><img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif"></td>
     </tr>
 </table>
-</p>
+<p></p>
 
 
 With recent advances in machine learning, semantic segmentation algorithms are becoming increasingly general-purpose and translatable to unseen tasks. Many key algorithmic advances in the field of medical imaging are commonly validated on a small number of tasks, limiting our understanding of the generalisability of the proposed contributions. A model which works out-of-the-box on many tasks, in the spirit of AutoML (Automated Machine Learning), would have a tremendous impact on healthcare. The field of medical imaging is also missing a fully open source and comprehensive benchmark for general-purpose algorithmic validation and testing covering a large span of challenges, such as: small data, unbalanced labels, large-ranging object scales, multi-class labels, and multimodal imaging, etc.
