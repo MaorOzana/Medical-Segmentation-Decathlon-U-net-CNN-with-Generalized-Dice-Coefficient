@@ -1,6 +1,7 @@
 # Medical Segmentation Decathlon: U-net CNN with Generalized Dice Coefficient
 
-
+<img align="center" src="https://user-images.githubusercontent.com/88136596/136197398-a584b511-a82e-4b7a-a80c-bfac32c19428.gif" alt="Made with Angular" title="Angular" hspace="20"/>
+<img align="center" src="https://user-images.githubusercontent.com/88136596/136197398-a584b511-a82e-4b7a-a80c-bfac32c19428.gif" alt="Made with Bootstrap" title="Bootstrap" hspace="20"/>
 
 
 
