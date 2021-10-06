@@ -3,6 +3,7 @@
 <figure>
   <p align="center">
     <img src="https://user-images.githubusercontent.com/88136596/136197398-a584b511-a82e-4b7a-a80c-bfac32c19428.gif" alt="my boat" />
+  <figcaption>Scale model of the Eiffel tower in Parc Mini-France</figcaption>
     <img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif" hspace="20" alt="dfsa" title="dsfsf" />
   </p>
 </figure>
