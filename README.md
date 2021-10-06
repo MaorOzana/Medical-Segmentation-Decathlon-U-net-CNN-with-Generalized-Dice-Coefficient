@@ -8,10 +8,10 @@
 
   
 
-<table> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp <table> 
   <tr>
-    <td>First Screen Page</td>
-    <td>Holiday Mention</td>
+    <td>Liver & Tumors</td>
+    <td>Spleen</td>
   </tr>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif">
@@ -37,42 +37,6 @@
   </tr>
 </table>
 
-
-<p align="center"></p>
-<table>
-    <thead>
-        <tr>
-            <th align="left">Column1</th>
-            <th align="center">Column1</th>
-            <th align="right">Column1</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td align="left">Column1</td>
-            <td align="center">Column1</td>
-            <td align="right">Column1</td>
-        </tr>
-    </tbody>
-</table>
-<p></p>
-
-<p align="center"></p>
-<table>
-  <thead>
-    <tr>
-      <td>First Screen Page</td>
-      <td>Holiday Mention</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="left"><img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif"></td>
-      <td align="right"><img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif"></td>
-    </tr>
-  <tbody>
-</table>
-<p></p>
 
 With recent advances in machine learning, semantic segmentation algorithms are becoming increasingly general-purpose and translatable to unseen tasks. Many key algorithmic advances in the field of medical imaging are commonly validated on a small number of tasks, limiting our understanding of the generalisability of the proposed contributions. A model which works out-of-the-box on many tasks, in the spirit of AutoML (Automated Machine Learning), would have a tremendous impact on healthcare. The field of medical imaging is also missing a fully open source and comprehensive benchmark for general-purpose algorithmic validation and testing covering a large span of challenges, such as: small data, unbalanced labels, large-ranging object scales, multi-class labels, and multimodal imaging, etc.
 
