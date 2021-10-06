@@ -1,15 +1,9 @@
 # Medical Segmentation Decathlon: U-net CNN with Generalized Dice Coefficient
 
-
-<p align="center"
-   <img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif" hspace="20" >
-   <img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif" hspace="20" />
-</p>
-
 <p align="center">
-  <img alt="Light" src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif">
+  <img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif">
+  <img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif">
 </p>
 
   
@@ -22,19 +16,11 @@
     </tr>
     <tr>
       <td><img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif"></td>
+  &nbsp; &nbsp; &nbsp; &nbsp;     
       <td><img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif"></td>
     </tr>
   </p>
 </table>
-
-<figure>
-  <p><img src="eiffel.jpg"
-    width="136" height="200"
-    alt="Eiffel tower">
-  <figcaption>Scale model of the
-    Eiffel tower in
-    Parc Mini-France</figcaption>
-</figure>
 
 
 With recent advances in machine learning, semantic segmentation algorithms are becoming increasingly general-purpose and translatable to unseen tasks. Many key algorithmic advances in the field of medical imaging are commonly validated on a small number of tasks, limiting our understanding of the generalisability of the proposed contributions. A model which works out-of-the-box on many tasks, in the spirit of AutoML (Automated Machine Learning), would have a tremendous impact on healthcare. The field of medical imaging is also missing a fully open source and comprehensive benchmark for general-purpose algorithmic validation and testing covering a large span of challenges, such as: small data, unbalanced labels, large-ranging object scales, multi-class labels, and multimodal imaging, etc.
