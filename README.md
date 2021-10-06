@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <table>
+<table>
     <tr>
       <td>First Screen Page</td>
       <td>Holiday Mention</td>
@@ -19,7 +19,7 @@
       <td><img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif"></td>
       <td><img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif"></td>
     </tr>
-  </table>
+</table>
 </p>
 
 
