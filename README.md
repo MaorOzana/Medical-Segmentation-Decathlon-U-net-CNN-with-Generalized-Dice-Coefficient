@@ -18,4 +18,4 @@ To address these problems, in this project, as part of the MSD challenge, I prop
 
 The MSD dataset consists of dozens of medical examinations in 3D (per organ), I’ll transform the 3-dimensional data into 2-d cuts as an input of our U-net. 
 
-Experimental results show that our generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation accuracy for each organ (liver and tumors, spleen), separately, without human interaction, with a relatively short run time compared to traditional segmentation methods.
+Experimental results show that my generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation accuracy for each organ (liver and tumors, spleen), separately, without human interaction, with a relatively short run time compared to traditional segmentation methods.
