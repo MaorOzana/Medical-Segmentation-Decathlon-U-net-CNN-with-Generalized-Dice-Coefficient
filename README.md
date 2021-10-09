@@ -52,6 +52,31 @@ The dataset consists of 61 portal venous phase CT scans from patients undergoing
 </p>
 <br/>
 
-##
+## Preprocess
+
+### From 3D to 2D
+Each dataset consists of dozens of medical examinations in 3D, we’ll transform the 3-dimensional data into 2-d cuts as an input of our U-net. Namely, we’ll take each 3-dimensional volume and divide it into slices, hence, we’ll take the slices of all the 3D images and concatenated them together to a stack and thus we get a new augmented dataset.
+
+### Downsampling the Data
+The training dataset consists of an enormous amount of 2D slices, so in order to overcome overfitting we’ll downsample our data with a factor of 2 by downsampling each image (slice) in a half, i.e., take every second pixel lengthwise and widthwise of the image (in my case; 512/2). Also, in this way memory saving increased runtime speed.
+
+### Data Normalization
+It is necessary to transfer the range of values of the training and test images to match the range of values of the masks, hence we will perform data normalization, by applying this transformation:
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/88136596/136672510-c2e84702-6dc7-4f27-9ace-b8c525db4825.png" width="25%" hight="25">
+</p>
+<br/>
+
+## Generalized Dice Score as Metric and Generalized Dice Loss as Loss Function
+<br/>
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/88136596/136674423-6ff145fa-bcd5-4f09-9c55-b525931e7e1d.png" width="75%" hight="75%">
+</p>
+
+## 'Adam' Optimizer
+<br/>
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/88136596/136674646-6f294b15-284f-4d61-acea-b576437379d7.png" width="75%" hight="75%">
+</p>
 
 Experimental results show that my generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation accuracy for each organ (liver and tumors, spleen), separately, without human interaction, with a relatively short run time compared to traditional segmentation methods.
