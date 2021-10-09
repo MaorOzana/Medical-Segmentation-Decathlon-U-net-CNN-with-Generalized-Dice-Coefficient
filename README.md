@@ -31,6 +31,7 @@ The data set consists of 201 contrast-enhanced CT 3D images from patients with p
   <img src="https://user-images.githubusercontent.com/88136596/136630170-b90d9feb-9913-4ff1-9430-8829b78a0b3b.png" width="50%" hight="50">
 </p>
 <br/>
+
 ### Spleen Dataset
 The dataset consists of 61 portal venous phase CT scans from patients undergoing chemotherapy treatment for liver metastases. The corresponding target ROI was the spleen. This data set was selected due to the large variations in the field-of-view. The data was acquired in the Memorial Sloan Kettering Cancer Center, New York, US. 
 
