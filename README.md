@@ -8,18 +8,22 @@
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://user-images.githubusercontent.com/88136596/136198937-c88385bb-a741-4115-89dc-d07ae7051649.gif">
 </p>
+<br/>
 
 ## Background
 
 With recent advances in machine learning, semantic segmentation algorithms are becoming increasingly general-purpose and translatable to unseen tasks. Many key algorithmic advances in the field of medical imaging are commonly validated on a small number of tasks, limiting our understanding of the generalisability of the proposed contributions. A model which works out-of-the-box on many tasks, in the spirit of AutoML (Automated Machine Learning), would have a tremendous impact on healthcare. The field of medical imaging is also missing a fully open source and comprehensive benchmark for general-purpose algorithmic validation and testing covering a large span of challenges, such as: small data, unbalanced labels, large-ranging object scales, multi-class labels, and multimodal imaging, etc.
+
 <br/>
 
 ## Objective
 To address these problems, in this project, as part of the MSD challenge, I propose a generic **machine learning segmentation algorithm** which I applied on two organs: ***liver & tumors, spleen***. I propose an **unsupervised generic multi-class model by implementing U-net CNN architecture with Generalized Dice Coefficient** as loss function and also as a metric.
+
 <br/>
 
 ## MSD Datasets
 In general, the Decathlon challenge made ten datasets available online, where each dataset had between one and three region-of-interest (ROI) targets. All 3D images (2,633 in total) were acquired across multiple institutions, anatomies, and modalities during real-world clinical applications. The images were de-identified and reformatted to the Neuroimaging Informatics Technology Initiative (NIfTI) format. All images were transposed (without resampling) to the most approximate right-anterior-superior coordinate frame, ensuring the data matrix x-y-z direction was consistent. For each segmentation task, a pixel-level label annotation was provided depending on the definition of each specific task.
+
 <br/>
 
 ### Liver & Tumors Dataset
