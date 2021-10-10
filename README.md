@@ -80,7 +80,7 @@ It is necessary to transfer the range of values of the training and test images 
   <img src="https://user-images.githubusercontent.com/88136596/136677159-ca245859-b12a-4a88-b49e-38bf6dfe1c89.png" width="60%" hight="60%">
 </p>
 
-Source: [here](https://stats.stackexchange.com/questions/383807/why-we-call-adam-an-a-adaptive-learning-rate-algorithm-if-the-step-size-is-a-con)
+Source: [here](https://www.deeplearningbook.org/)
 
 <br/>
 
