@@ -35,7 +35,7 @@ The data set consists of 201 contrast-enhanced CT 3D images from patients with p
 #### Mask labels: {‘0’ - background , ‘1’ - liver , ‘2’ - tumors}
 <br/>
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/88136596/136630170-b90d9feb-9913-4ff1-9430-8829b78a0b3b.png" width="40%" hight="40%">
+  <img src="https://user-images.githubusercontent.com/88136596/136630170-b90d9feb-9913-4ff1-9430-8829b78a0b3b.png" width="45%" hight="45%">
 </p>
 <br/>
 
@@ -48,7 +48,7 @@ The dataset consists of 61 portal venous phase CT scans from patients undergoing
 #### Mask labels: {‘0’ - background , ‘1’ - spleen}
 <br/>
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/88136596/136631736-e9c5ddf6-5fec-433d-86bc-67f9d69b398e.png" width="40%" hight="40%">
+  <img src="https://user-images.githubusercontent.com/88136596/136631736-e9c5ddf6-5fec-433d-86bc-67f9d69b398e.png" width="45%" hight="45%">
 </p>
 <br/>
 
