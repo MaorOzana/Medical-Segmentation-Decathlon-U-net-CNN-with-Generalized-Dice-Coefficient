@@ -35,7 +35,7 @@ The data set consists of 201 contrast-enhanced CT 3D images from patients with p
 #### Mask labels: {‘0’ - background , ‘1’ - liver , ‘2’ - tumors}
 <br/>
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/88136596/136630170-b90d9feb-9913-4ff1-9430-8829b78a0b3b.png" width="50%" hight="50">
+  <img src="https://user-images.githubusercontent.com/88136596/136630170-b90d9feb-9913-4ff1-9430-8829b78a0b3b.png" width="40%" hight="40%">
 </p>
 <br/>
 
@@ -48,7 +48,7 @@ The dataset consists of 61 portal venous phase CT scans from patients undergoing
 #### Mask labels: {‘0’ - background , ‘1’ - spleen}
 <br/>
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/88136596/136631736-e9c5ddf6-5fec-433d-86bc-67f9d69b398e.png" width="50%" hight="50">
+  <img src="https://user-images.githubusercontent.com/88136596/136631736-e9c5ddf6-5fec-433d-86bc-67f9d69b398e.png" width="40%" hight="40%">
 </p>
 <br/>
 
@@ -70,13 +70,21 @@ It is necessary to transfer the range of values of the training and test images 
 ## Generalized Dice Score as Metric and Generalized Dice Loss as Loss Function
 <br/>
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/88136596/136674423-6ff145fa-bcd5-4f09-9c55-b525931e7e1d.png" width="75%" hight="75%">
+  <img src="https://user-images.githubusercontent.com/88136596/136677128-0672f440-227b-413f-a4c7-a0823f7e0122.png" width="75%" hight="75%">
 </p>
+<br/>
 
 ## 'Adam' Optimizer
 <br/>
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/88136596/136674646-6f294b15-284f-4d61-acea-b576437379d7.png" width="75%" hight="75%">
+  <img src="https://user-images.githubusercontent.com/88136596/136677159-ca245859-b12a-4a88-b49e-38bf6dfe1c89.png" width="60%" hight="60%">
 </p>
+
+Source: [here](https://stats.stackexchange.com/questions/383807/why-we-call-adam-an-a-adaptive-learning-rate-algorithm-if-the-step-size-is-a-con)
+
+<br/>
+
+## U-net Architecture 
+
 
 Experimental results show that my generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation accuracy for each organ (liver and tumors, spleen), separately, without human interaction, with a relatively short run time compared to traditional segmentation methods.
