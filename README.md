@@ -84,7 +84,12 @@ Source: [here](https://www.deeplearningbook.org/)
 
 <br/>
 
-## U-net Architecture 
+## Model Architecture 
+<br/>
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/88136596/136843152-0492fd61-08a7-4c66-900b-dd140a5f6610.PNG">
+</p>
 
+<br/>
 
 Experimental results show that my generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation accuracy for each organ (liver and tumors, spleen), separately, without human interaction, with a relatively short run time compared to traditional segmentation methods.
