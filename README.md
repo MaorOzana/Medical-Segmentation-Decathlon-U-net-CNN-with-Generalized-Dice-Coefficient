@@ -1,4 +1,4 @@
-# Medical Segmentation Decathlon: Multi-Class Segmentation with U-Net and Generalized Dice Coefficient
+# Medical Segmentation Decathlon: Multiclass Segmentation with U-Net and Generalized Dice Coefficient
 
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>***Liver & Tumors***
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>***Spleen***
@@ -86,7 +86,7 @@ The training dataset consists of an enormous amount of 2D slices, so in order to
 ### Data Normalization
 It is necessary to transfer the range of values of the training and test images to match the range of values of the masks, hence we will perform data normalization, by applying this transformation:
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/88136596/136672510-c2e84702-6dc7-4f27-9ace-b8c525db4825.png" width="25%" hight="25">
+  <img src="https://user-images.githubusercontent.com/88136596/136672510-c2e84702-6dc7-4f27-9ace-b8c525db4825.png" width="30%" hight="30">
 </p>
 <br/>
 
