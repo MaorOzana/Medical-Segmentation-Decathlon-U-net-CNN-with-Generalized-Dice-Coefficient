@@ -19,9 +19,10 @@
 <br/>
 
 ### Environment and Requirements
-#### windows 10
-#### python 3.8.10
-#### tensorflow-gpu 2.5.0 
+#### Windows 10
+#### Spyder 5.0.5
+#### Python 3.8.10
+#### TensorFlow-GPU 2.5.0 
 #### cudatoolkit 11.0.221
 #### cudnn 8.2.1
 #### imageio 2.9.0
@@ -64,9 +65,9 @@ The data set consists of 201 contrast-enhanced CT 3D images from patients with p
 ### Spleen Dataset
 The dataset consists of 61 portal venous phase CT scans from patients undergoing chemotherapy treatment for liver metastases. The corresponding target ROI was the spleen. This data set was selected due to the large variations in the field-of-view. The data was acquired in the Memorial Sloan Kettering Cancer Center, New York, US. 
 
-#### Training data: 131 pairs of 3D image-mask.
-#### Test data: 70 3D images.
-#### Target: Liver and tumors.
+#### Training data: 41 pairs of 3D image-mask.
+#### Test data: 20 3D images.
+#### Target: Spleen.
 #### Mask labels: {‘0’ - background , ‘1’ - spleen}
 <br/>
 <p align="left">
@@ -181,7 +182,25 @@ Source: [here](https://www.deeplearningbook.org/)
 <br/>
 
 ## Conclusions and Summary
-In this project, I developed a single generic algorithm, that can be able to generalize and work accurately across multiple different medical segmentation tasks, without the need for any human interaction. I introduced the efficiency of our algorithm by applying it to two tasks; segmentation of spleen and liver with tumors. Experimental results show that our generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation performance, the test Generalized Dice Coefficient reached 0.89 for liver and tumors and 0.91 for the spleen which is satisfying. All this was done without human interaction and with a relatively short run time compared to traditional segmentation methods.
+In this project, I developed a single generic algorithm, that can be able to generalize and work accurately across multiple different medical segmentation tasks, without the need for any human interaction. I introduced the efficiency of our algorithm by applying it to two tasks; segmentation of spleen and liver with tumors. Experimental results show that our generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation performance, the test Generalized Dice Coefficient reached 89% for liver and tumors and 91% for the spleen which is satisfying. All this was done without human interaction and with a relatively short run time compared to traditional segmentation methods.
+<br/>
 
+## Final Notes
+### What's in the files?
 
-Experimental results show that my generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation accuracy for each organ (liver and tumors, spleen), separately, without human interaction, with a relatively short run time compared to traditional segmentation methods.
+• Python code (.py)
+
+• NifTI Data files (.nii.gz)
+
+• Pridected masks images (.PNG) 
+
+• NumPy files of the images and labels (.npy)
+
+• Animations (.gif)
+
+• Best model weights files (.h5)
+
+<br/>
+
+Contributes are welcome!
+Thank you!
