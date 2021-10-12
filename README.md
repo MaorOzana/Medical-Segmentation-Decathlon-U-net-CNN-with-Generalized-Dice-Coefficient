@@ -189,15 +189,15 @@ In this project, I developed a single generic algorithm, that can be able to gen
 ## Final Notes
 ### What's in the files?
 
-• Python code (.py)
+• Python code files (.py)
 
-• NifTI Data files (.nii.gz)
+• NifTI Data files (.nii.gz) folders (.tar)
 
-• Pridected masks images (.PNG) 
+• Pridected masks images (.png) folders (.zip)
 
 • NumPy files of the images and labels (.npy)
 
-• Animations (.gif)
+• Animations files (.gif)
 
 • Best model weights files (.h5)
 
