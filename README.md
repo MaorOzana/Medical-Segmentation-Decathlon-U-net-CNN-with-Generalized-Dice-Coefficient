@@ -183,6 +183,7 @@ Source: [here](https://www.deeplearningbook.org/)
 
 ## Conclusions and Summary
 In this project, I developed a single generic algorithm, that can be able to generalize and work accurately across multiple different medical segmentation tasks, without the need for any human interaction. I introduced the efficiency of our algorithm by applying it to two tasks; segmentation of spleen and liver with tumors. Experimental results show that our generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation performance, the test Generalized Dice Coefficient reached 89% for liver and tumors and 91% for the spleen which is satisfying. All this was done without human interaction and with a relatively short run time compared to traditional segmentation methods.
+
 <br/>
 
 ## Final Notes
@@ -202,5 +203,5 @@ In this project, I developed a single generic algorithm, that can be able to gen
 
 <br/>
 
-Contributes are welcome!
-Thank you!
+#### Contributes are welcome !
+#### Thank you :)
