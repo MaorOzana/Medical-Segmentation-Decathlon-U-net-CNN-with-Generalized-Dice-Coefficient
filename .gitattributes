@@ -1,7 +1,0 @@
-liver_0.nii.gz filter=lfs diff=lfs merge=lfs -text
-liver_1.nii.gz filter=lfs diff=lfs merge=lfs -text
-liver_2.nii.gz filter=lfs diff=lfs merge=lfs -text
-liver_3.nii.gz filter=lfs diff=lfs merge=lfs -text
-liver_4.nii.gz filter=lfs diff=lfs merge=lfs -text
-liver_5.nii.gz filter=lfs diff=lfs merge=lfs -text
-liver_6.nii.gz filter=lfs diff=lfs merge=lfs -text
