@@ -111,7 +111,7 @@ Much better than.*
 
 <br/>
 
-Source: [here](https://www.deeplearningbook.org/)
+Source: [Here](https://www.deeplearningbook.org/)
 
 <br/>
 
@@ -191,15 +191,17 @@ In this project, I developed a single generic algorithm, that can be able to gen
 
 • Python code files (.py)
 
-• NifTI Data files (.nii.gz) folders (.tar)
-
-• Pridected masks images (.png) folders (.zip)
-
-• NumPy files of the images and labels (.npy)
-
 • Animations files (.gif)
 
 • Best model weights files (.h5)
+
+### Workflow
+
+• Python code files 
+
+• Python code files (.py)
+
+• Run the codes.
 
 <br/>
 
