@@ -35,7 +35,7 @@
 
 ## Important Notes
 
-### What's in the files?
+### What's in the Files?
 
 • Python code files (.py)
 
@@ -48,11 +48,11 @@
 1) Download and unzip the data files ("Task03_Liver.tar" and "Task09_Spleen.tar") and place them in the "data" folder.
    Source: [Here](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2)
 
-2) Create project file which contains the "data" folder, Python code files and also the best model weights files (if you want to run it as pretrained model).
+2) Create project folder which contains the "data" folder, Python code files and also the best model weights files (if you want to run it as pretrained model).
 
 3) Run the codes as pretrained model (with the best model weights files; "weights_Liver.h5" and "weights_Spleen.h5") or train the model from scratch.
 
-4) Examine the "Predicted_Liver_Masks" and "Predicted_Spleen_Masks" files and use them for your needs.
+4) Examine the "Predicted_Liver_Masks" and "Predicted_Spleen_Masks" folders and use them for your needs.
 
 <br/>
 
