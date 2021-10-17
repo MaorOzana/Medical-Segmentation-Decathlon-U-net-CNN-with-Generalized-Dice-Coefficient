@@ -202,11 +202,11 @@ In this project, I developed a single generic algorithm, that can be able to gen
 
 2) Create project file which contains the "data" folder, Python code files and also the best model weights files (if you want to run it as pretrained model).
 
-3) Run the codes as pretrained model (with the best model weights files; "weights_Liver.h5" and "weights_Spleen.h5") or train the model from scratch.
+3) Run the codes as pretrained model (with the best model weights files; "weights_Liver.h5" and "weights_Spleen.h5" or train the model from scratch.
 
 4) Examine the "Predicted_Liver_Masks" and "Predicted_Spleen_Masks" files and use them for your needs.
 
 <br/>
 
-#### Contributes are welcome !
-#### Thank you :)
+### Contributes are welcome !
+### Thank you :)
