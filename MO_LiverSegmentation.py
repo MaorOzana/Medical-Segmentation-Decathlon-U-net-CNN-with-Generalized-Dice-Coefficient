@@ -1,5 +1,5 @@
 # Final Project - Medical Segmentation Decathlon; U-net CNN with Generalized Dice Coefficient #
-# Maor Oz - 308540608 # BGU #
+# Maor Oz # BGU #
 
 # %% Import libraries
 
