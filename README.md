@@ -33,6 +33,29 @@
 #### opencv-python 4.5.3.56
 <br/>
 
+## Important Notes
+
+### What's in the files?
+
+• Python code files (.py)
+
+• Animations files (.gif)
+
+• Best model weights files (.h5)
+
+### Workflow
+
+1) Download and unzip the data files ("Task03_Liver.tar" and "Task09_Spleen.tar") and place them in the "data" folder.
+   Source: [Here](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2)
+
+2) Create project file which contains the "data" folder, Python code files and also the best model weights files (if you want to run it as pretrained model).
+
+3) Run the codes as pretrained model (with the best model weights files; "weights_Liver.h5" and "weights_Spleen.h5" or train the model from scratch.
+
+4) Examine the "Predicted_Liver_Masks" and "Predicted_Spleen_Masks" files and use them for your needs.
+
+<br/>
+
 ## Background
 
 With recent advances in machine learning, semantic segmentation algorithms are becoming increasingly general-purpose and translatable to unseen tasks. Many key algorithmic advances in the field of medical imaging are commonly validated on a small number of tasks, limiting our understanding of the generalisability of the proposed contributions. A model which works out-of-the-box on many tasks, in the spirit of AutoML (Automated Machine Learning), would have a tremendous impact on healthcare. The field of medical imaging is also missing a fully open source and comprehensive benchmark for general-purpose algorithmic validation and testing covering a large span of challenges, such as: small data, unbalanced labels, large-ranging object scales, multi-class labels, and multimodal imaging, etc.
@@ -183,28 +206,6 @@ Source: [Here](https://www.deeplearningbook.org/)
 
 ## Conclusions and Summary
 In this project, I developed a single generic algorithm, that can be able to generalize and work accurately across multiple different medical segmentation tasks, without the need for any human interaction. I introduced the efficiency of our algorithm by applying it to two tasks; segmentation of spleen and liver with tumors. Experimental results show that our generic model based on U-net and Generalized Dice Coefficient algorithm leads to high segmentation performance, the test Generalized Dice Coefficient reached 89% for liver and tumors and 91% for the spleen which is satisfying. All this was done without human interaction and with a relatively short run time compared to traditional segmentation methods.
-
-<br/>
-
-## Final Notes
-### What's in the files?
-
-• Python code files (.py)
-
-• Animations files (.gif)
-
-• Best model weights files (.h5)
-
-### Workflow
-
-1) Download and unzip the data files ("Task03_Liver.tar" and "Task09_Spleen.tar") and place them in the "data" folder.
-   Source: [here](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2).
-
-2) Create project file which contains the "data" folder, Python code files and also the best model weights files (if you want to run it as pretrained model).
-
-3) Run the codes as pretrained model (with the best model weights files; "weights_Liver.h5" and "weights_Spleen.h5" or train the model from scratch.
-
-4) Examine the "Predicted_Liver_Masks" and "Predicted_Spleen_Masks" files and use them for your needs.
 
 <br/>
 
